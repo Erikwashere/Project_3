@@ -192,16 +192,31 @@ textarea {
 @media screen and (min-width: 768px) {
 
   .wrapper {
-    max-width: 60%;
+    max-width: 768px;
   }
 
   .main-header {
     flex-direction: column;
   }
-
+  
   .flex {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: initial;
+  }
+
+  .flex label {
+    flex-basis: 20%;
+    font-size: 1rem;
+    margin: auto 0;
+  }
+
+  .flex input,
+  .flex select {
+    flex-basis: 75%;
+  }
+
+  #zip {
+    max-width: 25%;
   }
 
   .contact_input {
@@ -213,10 +228,6 @@ textarea {
 
   .input_2 {
     padding: 10px;
-  }
-
-  #zip {
-    width: 25%;
   }
 
 }
