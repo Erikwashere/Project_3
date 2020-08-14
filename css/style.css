@@ -81,6 +81,10 @@ form {
   background: #f7f7f7;
 }
 
+#zip {
+  width: 50%;
+}
+
 .titles {
   align-self: flex-start;
   padding-bottom: 25px;
@@ -95,9 +99,11 @@ form {
   padding: 10px;
   color: #7c7c7c;
 }
-input:focus {
+input:focus,
+textarea:focus {
   background: #7F7FBF;
   transition: 1.3s;
+  color: white;
 }
 
 /**************************************
@@ -147,6 +153,8 @@ input[type="radio"] {
 textarea {
   background: #f7f7f7;
   width: 100%;
+  border-radius: 10px;
+  border: none;
 }
 
 /**************************************
@@ -207,5 +215,8 @@ textarea {
     padding: 10px;
   }
 
+  #zip {
+    width: 25%;
+  }
 
 }
